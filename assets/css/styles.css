@@ -1,0 +1,241 @@
+/*WOODER BOOTSTRAP 4. TEMPLATE - 2017
+CREATED BY: SZABOLCS HETEI-BAKO*/
+
+/*---------------------------GENERAL STYLES-----------------------------*/
+
+@font-face {
+    font-family: Ionicon;
+    src: url(../fonts/ionicons.woff);
+}
+
+body{
+  font-family: 'Raleway', sans-serif;
+  position: relative;
+}
+p{
+  font-size: .875em;
+}
+
+a:hover{
+  text-decoration: none;
+  color: #bea67c;
+}
+
+
+/*ELEMENTS*/
+
+/*---------------------------BUTTONS-----------------------------*/
+
+
+.learnmore{
+ text-decoration: none;
+ text-transform: uppercase;
+ font-size: 12px;
+ font-weight: 600;
+ color: #2c3e50;
+ transition: .2s;
+ border: 1px solid #212121;
+ padding: 10px 15px;
+ margin-bottom: 20px;
+}
+.learnmore:hover{
+ text-decoration: none;
+ color: #7f8c8d;
+}
+
+.learnmore::after{
+ content: '\f363';
+ font-family: "Ionicons";
+ font-size: 22px;
+ color: rgba(190,160,124,0);
+ position: relative;
+ left: 20px;
+ top: 2px;
+ transition: .3s;
+}
+.learnmore:hover::after{
+ color: rgba(190,160,124,1);
+ left: 30px;
+}
+
+
+.watch-video-btn{
+ text-decoration: none;
+ text-transform: uppercase;
+ font-size: 12px;
+ font-weight: 600;
+ color: #fff;
+ transition: .2s;
+ border: 1px solid #fff;
+ padding: 10px 15px;
+ margin-bottom: 20px;
+
+}
+.watch-video-btn:hover{
+ text-decoration: none;
+ color: #bea67c;
+ border: 1px solid #bea67c;
+}
+
+.watch-video-btn::before{
+ content: '\f133';
+ font-family: "Ionicons";
+ font-size: 22px;
+ color: #fff;
+ position: relative;
+ left: 0;
+ top: 4px;
+ margin-right: 6px;
+}
+
+
+.nav-link{
+  text-transform: uppercase;
+  color: #fafafa;
+  font-weight: 600;
+  font-size: .875em;
+  transition: .3s;
+}
+.nav-link:hover,
+.active{
+  color: #bea67c !important;
+}
+
+
+
+/*---------------------------DESIGN ELEMENTS-----------------------------*/
+.shadow{
+  box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+
+}
+.gold-frame{
+  border: 1px solid #bea67c;
+}
+
+.divider{
+  width: 5%;
+  border: 1px solid rgba(0,0,0, 0.3);
+  margin: 20px auto 40px;
+}
+
+.vertical-divider{
+  min-height: 100px;
+  min-width: 100px;
+  border-right: 1px solid #212121;
+  display: block;
+}
+
+/*---------------------------BACKGROUNDS-----------------------------*/
+
+
+.background{
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  width: 100%;
+  height: 500px;
+  background-image: url('../../assets/img/bench.jpg');
+  background-attachment: fixed;
+  background-position: center;
+
+}
+.background-video{
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  width: 100%;
+  min-height: 550px;
+  background-image: url('../../assets/img/video.jpg');
+  background-attachment: fixed;
+  background-position: center;
+
+}
+
+
+/*---------------------------TEXT DESIGN-----------------------------*/
+
+.bold-text-h4{
+  font-weight: 600;
+}
+
+.text-decor{
+  width: 10%;
+  border: 1px solid rgba(0,0,0, 0.3);
+  margin: 20px auto 40px;
+  text-align: right;
+
+}
+
+.light-heading{
+  color: white;
+  font-weight: 600;
+  letter-spacing: 6px;
+  margin: 50px 0;
+  font-size: 4em;
+}
+
+.faded-heading{
+  color: rgba(0,0,0, 0.04);
+  font-weight: 600;
+  margin: 50px 0;
+  position: absolute;
+  left: 10px;
+  top: 750px;
+  font-size: 14em;
+  overflow: hidden;
+}
+
+.light-text{
+  color: white;
+  font-weight: 300;
+  font-size: 0.937em;
+}
+
+.beige-heading{
+  color: #bea67c;
+  font-weight: 600;
+  letter-spacing: 3px;
+  margin: 15px 0 15px 0;
+  font-size: 3em;
+  text-transform: uppercase;
+}
+.beige-secondary-heading{
+  color: #bea67c;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin: 10px 0;
+  font-size: 2em;
+}
+
+/*---------------------------LAYOUT-----------------------------*/
+
+.margin-minus{
+  margin-top: -100px;
+  width: 35%;
+  border-radius: 2px;
+  box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+}
+
+
+
+#furniture,
+#services,
+#quality,
+#video,
+#about{
+  min-height: 350px;
+
+}
+
+#footer{
+  background-color: #212121;
+  min-height: 60px;
+  color: #fff;
+  padding: 15px 15px;
+  text-align: center;
+}
+
+.padding-top-bottom{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
