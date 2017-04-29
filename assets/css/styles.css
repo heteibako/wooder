@@ -18,8 +18,9 @@ p{
 
 a:hover{
   text-decoration: none;
-  color: #bea67c;
+  color: #bea67c !important;
 }
+
 
 
 /*ELEMENTS*/
@@ -45,7 +46,7 @@ a:hover{
 
 .learnmore::after{
  content: '\f363';
- font-family: "Ionicons";
+ font-family: "Ionicons", sans-serif;
  font-size: 22px;
  color: rgba(190,160,124,0);
  position: relative;
@@ -79,7 +80,7 @@ a:hover{
 
 .watch-video-btn::before{
  content: '\f133';
- font-family: "Ionicons";
+ font-family: "Ionicons" , sans-serif;
  font-size: 22px;
  color: #fff;
  position: relative;
@@ -126,31 +127,25 @@ a:hover{
 }
 
 /*---------------------------BACKGROUNDS-----------------------------*/
-
+.section_1{
+    background: linear-gradient(135deg, #bea67c, #66512c);
+    min-height: 500px;
+}
 
 .background{
+  background: #000 url('../../assets/img/bench.jpg') no-repeat center fixed;
   background-size: cover;
-  background-repeat: no-repeat;
   overflow: hidden;
   width: 100%;
   height: 500px;
-  background-image: url('../../assets/img/bench.jpg');
-  background-attachment: fixed;
-  background-position: center;
 
 }
 .background-video{
-  background-size: cover;
-  background-repeat: no-repeat;
-  overflow: hidden;
+  background: #000 url('../../assets/img/video.jpg') no-repeat center fixed;
   width: 100%;
+  background-size: cover;
   min-height: 550px;
-  background-image: url('../../assets/img/video.jpg');
-  background-attachment: fixed;
-  background-position: center;
-
 }
-
 
 /*---------------------------TEXT DESIGN-----------------------------*/
 
@@ -168,10 +163,12 @@ a:hover{
 
 .light-heading{
   color: white;
-  font-weight: 600;
-  letter-spacing: 6px;
-  margin: 50px 0;
+  font-weight: 300;
+  letter-spacing: 2px;
+  margin: 20px 0;
   font-size: 4em;
+  text-transform: uppercase;
+
 }
 
 .faded-heading{
