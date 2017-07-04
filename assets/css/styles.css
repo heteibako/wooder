@@ -40,15 +40,17 @@ a{
  color: #2c3e50;
  transition: .2s;
  border: 1px solid #212121;
- padding: 10px 15px;
+ padding: 10px 20px;
  margin-bottom: 20px;
+ border-radius: 50px;
 }
 .learnmore:hover{
  text-decoration: none;
  color: #7f8c8d;
+ border: 1px solid #7f8c8d;
 }
 
-.learnmore::after{
+/*.learnmore::after{
  content: '\f363';
  font-family: "Ionicons", sans-serif;
  font-size: 22px;
@@ -61,7 +63,7 @@ a{
 .learnmore:hover::after{
  color: rgba(190,160,124,1);
  left: 30px;
-}
+}*/
 
 
 .watch-video-btn{
@@ -72,14 +74,16 @@ a{
  color: #fff;
  transition: .2s;
  border: 1px solid #fff;
- padding: 10px 15px;
+ padding: 13px 20px;
  margin-bottom: 20px;
+ border-radius: 50px;
 
 }
 .watch-video-btn:hover{
  text-decoration: none;
  color: #bea67c;
  border: 1px solid #bea67c;
+
 }
 
 .watch-video-btn::before{
@@ -92,6 +96,8 @@ a{
  top: 4px;
  margin-right: 6px;
 }
+
+
 
 
 .nav-link{
@@ -107,7 +113,7 @@ a{
 }
 
 nav{
-    background-color: rgba(0,0,0, .8)!important;
+    background-color: rgba(0,0,0, .9)!important;
     border-bottom: 1px solid #4b5257;
 }
 
